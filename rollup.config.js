@@ -18,7 +18,7 @@ export default {
   sourceMap: true,
   exports: 'named',
   plugins: [
-    nodeResolve({ skip: [ 'subanagram', ], }),
+    nodeResolve({ skip: [ 'subanagram','inquirer', ], }),
     commonjs(),
     babel({
       exclude: 'node_modules/**',

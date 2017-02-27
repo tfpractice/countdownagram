@@ -13,7 +13,7 @@ export default {
     moduleName: 'countdownagram',
     sourceMap: true,
     plugins: [
-      nodeResolve({ skip: [ 'subanagram', ], }),
+      nodeResolve({ skip: [ 'subanagram', 'inquirer', ], }),
       commonjs(),
       babel({
         // exclude: 'node_modules/**',
