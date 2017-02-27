@@ -13,12 +13,12 @@ export default {
       { dest: 'dist/bundle.cjs.js', format: 'cjs', },
       { dest: 'dist/bundle.umd.js', format: 'umd', },
   ],
-  moduleId: 'subanagram',
-  moduleName: 'subanagram',
+  moduleId: 'countdownagram',
+  moduleName: 'countdownagram',
   sourceMap: true,
   exports: 'named',
   plugins: [
-    nodeResolve({ skip: [ 'anagramica', ], }),
+    nodeResolve({ skip: [ 'subanagram', ], }),
     commonjs(),
     babel({
       exclude: 'node_modules/**',
