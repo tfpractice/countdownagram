@@ -1,0 +1,9 @@
+{
+  "name": "countdownagram",
+  "version": "1.0.0",
+  "description": "command line implementation of scrabble style word finder Edit",
+  "main": "index.js",
+  "repository": "git@github.com:tfpractice/countdownagram.git",
+  "author": "theory friction practice <jackson.brebnor@gmail.com>",
+  "license": "MIT"
+}
